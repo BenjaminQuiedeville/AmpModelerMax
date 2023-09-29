@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -59,11 +59,11 @@
 								"absolutepath" : "SulphurAeon.wav",
 								"filename" : "SulphurAeon.wav",
 								"filekind" : "audiofile",
-								"id" : "u062000368",
+								"id" : "u675000603",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
@@ -71,11 +71,11 @@
 								"absolutepath" : "Metallica.wav",
 								"filename" : "Metallica.wav",
 								"filekind" : "audiofile",
-								"id" : "u402000367",
+								"id" : "u092000599",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
@@ -241,7 +241,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -680,15 +680,15 @@
 			}
 , 			{
 				"name" : "Metallica.wav",
-				"bootpath" : "D:/Documents/Max 8/Projects/VST Tester",
-				"patcherrelativepath" : "../VST Tester",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
+				"patcherrelativepath" : "./samples",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SulphurAeon.wav",
-				"bootpath" : "D:/Documents/Max 8/Projects/VST Tester",
-				"patcherrelativepath" : "../VST Tester",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
+				"patcherrelativepath" : "./samples",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
