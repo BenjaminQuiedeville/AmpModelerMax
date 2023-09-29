@@ -1,0 +1,33 @@
+{
+	"pattrstorage" : 	{
+		"name" : "presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"gain1Pattr" : [ 5.0 ],
+					"gain2Pattr" : [ 5.0 ],
+					"gain3Pattr" : [ 5.0 ],
+					"gain4Pattr" : [ 5.0 ],
+					"volComp" : [ -20.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"gain1Pattr" : [ 20.0 ],
+					"gain2Pattr" : [ 20.0 ],
+					"gain3Pattr" : [ 20.0 ],
+					"gain4Pattr" : [ 20.0 ],
+					"volComp" : [ -37.559055118110223 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
