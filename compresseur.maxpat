@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "TemplateOutputGridsnap",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-27",
+					"index" : 2,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 566.0, 375.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "knee",
 					"id" : "obj-25",
@@ -145,7 +157,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.dial[34]",
+							"parameter_longname" : "live.dial[35]",
 							"parameter_mmax" : 12.0,
 							"parameter_shortname" : "Knee",
 							"parameter_type" : 0,
@@ -230,7 +242,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.dial[38]",
+							"parameter_longname" : "live.dial[5]",
 							"parameter_mmax" : 20.0,
 							"parameter_mmin" : -20.0,
 							"parameter_shortname" : "Makeup",
@@ -267,7 +279,7 @@
 							"parameter_initial" : [ 50 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.dial[37]",
+							"parameter_longname" : "live.dial[3]",
 							"parameter_mmax" : 500.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "Release",
@@ -305,7 +317,7 @@
 							"parameter_initial" : [ 3.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.dial[36]",
+							"parameter_longname" : "live.dial[41]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : 0.01,
 							"parameter_shortname" : "Attack",
@@ -338,7 +350,7 @@
 							"parameter_initial" : [ 2.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.dial[32]",
+							"parameter_longname" : "live.dial[23]",
 							"parameter_mmax" : 10.0,
 							"parameter_mmin" : 1.0,
 							"parameter_shortname" : "Ratio",
@@ -370,7 +382,7 @@
 							"parameter_initial" : [ -10 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "live.dial[33]",
+							"parameter_longname" : "live.dial[30]",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -50.0,
 							"parameter_shortname" : "Thresh",
@@ -444,6 +456,13 @@
 					"destination" : [ "obj-10", 0 ],
 					"order" : 1,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-1", 1 ]
 				}
 
 			}

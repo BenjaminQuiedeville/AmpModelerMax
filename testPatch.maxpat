@@ -40,13 +40,15 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-64",
-					"maxclass" : "live.scope~",
-					"numinlets" : 2,
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "spectrumdraw~",
+					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 90.0, 675.0, 330.0, 150.0 ],
-					"range" : [ -0.1, 0.1 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 30.0, 675.0, 400.0, 160.0 ]
 				}
 
 			}
@@ -61,9 +63,9 @@
 								"filekind" : "audiofile",
 								"id" : "u675000603",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -73,9 +75,9 @@
 								"filekind" : "audiofile",
 								"id" : "u092000599",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
-
+									"loop" : 1
 								}
 
 							}
@@ -93,7 +95,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 240.0, 15.0, 255.0, 74.0 ],
+					"patching_rect" : [ 30.0, 90.0, 255.0, 74.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -175,7 +177,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 570.0, 15.0, 165.0, 120.0 ],
+					"patching_rect" : [ 375.0, 90.0, 165.0, 120.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -467,8 +469,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-64", 0 ],
-					"midpoints" : [ 39.5, 660.0, 99.5, 660.0 ],
+					"destination" : [ "obj-3", 0 ],
 					"order" : 3,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -516,9 +517,11 @@
 			"obj-12::obj-10" : [ "live.dial[19]", "Bite", 0 ],
 			"obj-12::obj-11" : [ "live.dial[20]", "Boost", 0 ],
 			"obj-12::obj-12" : [ "live.dial[21]", "Tight", 0 ],
+			"obj-12::obj-13" : [ "live.dial[7]", "F Bass", 0 ],
 			"obj-12::obj-139" : [ "live.dial[33]", "Gain 4", 0 ],
 			"obj-12::obj-14" : [ "live.dial[39]", "Release", 0 ],
 			"obj-12::obj-140" : [ "live.dial[36]", "Gain global", 0 ],
+			"obj-12::obj-15" : [ "live.dial[8]", "F Lo Mid", 0 ],
 			"obj-12::obj-16" : [ "live.dial[42]", "Release", 0 ],
 			"obj-12::obj-18" : [ "live.dial[43]", "Attack", 0 ],
 			"obj-12::obj-19" : [ "live.dial[47]", "Ratio", 0 ],
@@ -537,7 +540,7 @@
 			"obj-12::obj-3::obj-9" : [ "live.dial[5]", "Makeup", 0 ],
 			"obj-12::obj-4" : [ "live.dial[34]", "Pre gain", 0 ],
 			"obj-12::obj-41" : [ "live.dial[15]", "Bass", 0 ],
-			"obj-12::obj-42" : [ "live.dial[16]", "Middle", 0 ],
+			"obj-12::obj-42" : [ "live.dial[16]", "Hi Mid", 0 ],
 			"obj-12::obj-43" : [ "live.dial[26]", "High", 0 ],
 			"obj-12::obj-44" : [ "live.dial[32]", "Post gain", 0 ],
 			"obj-12::obj-45" : [ "live.dial[50]", "IR2 delay", 0 ],
@@ -554,6 +557,9 @@
 			"obj-12::obj-6::obj-15" : [ "live.dial[28]", "Attack", 0 ],
 			"obj-12::obj-6::obj-16" : [ "live.dial[29]", "Release", 0 ],
 			"obj-12::obj-6::obj-7" : [ "live.dial[6]", "Threshold", 0 ],
+			"obj-12::obj-81" : [ "live.dial[9]", "Lo Mid", 0 ],
+			"obj-12::obj-82" : [ "live.dial[25]", "F Hi Mid", 0 ],
+			"obj-12::obj-88" : [ "live.dial[45]", "F High", 0 ],
 			"obj-12::obj-9::obj-19" : [ "live.dial[1]", "Bite", 0 ],
 			"obj-12::obj-9::obj-29" : [ "live.dial[2]", "Tight", 0 ],
 			"obj-12::obj-9::obj-9" : [ "live.dial", "Volume", 0 ],
@@ -568,6 +574,13 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-12::obj-13" : 				{
+					"parameter_exponent" : 1.0,
+					"parameter_longname" : "live.dial[7]",
+					"parameter_range" : [ 0.0, 500.0 ],
+					"parameter_shortname" : "F Bass"
+				}
+,
 				"obj-12::obj-139" : 				{
 					"parameter_longname" : "live.dial[33]",
 					"parameter_range" : [ 0.0, 40.0 ],
@@ -578,6 +591,13 @@
 					"parameter_longname" : "live.dial[36]",
 					"parameter_range" : [ 0.0, 40.0 ],
 					"parameter_shortname" : "Gain global"
+				}
+,
+				"obj-12::obj-15" : 				{
+					"parameter_exponent" : 1.0,
+					"parameter_longname" : "live.dial[8]",
+					"parameter_range" : [ 200.0, 1000.0 ],
+					"parameter_shortname" : "F Lo Mid"
 				}
 ,
 				"obj-12::obj-21" : 				{
@@ -613,7 +633,8 @@
 				}
 ,
 				"obj-12::obj-42" : 				{
-					"parameter_range" : [ -12.0, 12.0 ]
+					"parameter_range" : [ -12.0, 12.0 ],
+					"parameter_shortname" : "Hi Mid"
 				}
 ,
 				"obj-12::obj-43" : 				{
@@ -657,6 +678,25 @@
 					"parameter_range" : [ -90.0, 0.0 ],
 					"parameter_units" : "%.1f dB",
 					"parameter_unitstyle" : 9
+				}
+,
+				"obj-12::obj-81" : 				{
+					"parameter_longname" : "live.dial[9]",
+					"parameter_shortname" : "Lo Mid"
+				}
+,
+				"obj-12::obj-82" : 				{
+					"parameter_exponent" : 1.0,
+					"parameter_longname" : "live.dial[25]",
+					"parameter_range" : [ 600.0, 2500.0 ],
+					"parameter_shortname" : "F Hi Mid"
+				}
+,
+				"obj-12::obj-88" : 				{
+					"parameter_exponent" : 1.0,
+					"parameter_longname" : "live.dial[45]",
+					"parameter_range" : [ 1500.0, 15000.0 ],
+					"parameter_shortname" : "F High"
 				}
 
 			}
@@ -758,6 +798,10 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "spectrumdraw~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
