@@ -40,6 +40,66 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"automatic" : 1,
+					"id" : "obj-96",
+					"maxclass" : "scope~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 309.000000000000114, 1125.0, 195.0, 71.840935672514661 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 90.0, 1160.079532163742897, 29.5, 22.0 ],
+					"text" : "-~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 105.0, 1130.079532163742897, 75.0, 22.0 ],
+					"text" : "onepole~ 50"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 375.0, 990.0, 41.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_exponent" : 2.0,
+							"parameter_longname" : "live.dial[51]",
+							"parameter_mmax" : 2.0,
+							"parameter_shortname" : "Bias",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
+						}
+
+					}
+,
+					"varname" : "live.dial[10]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-160",
 					"maxclass" : "live.scope~",
 					"numinlets" : 2,
@@ -717,7 +777,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 831.5, 450.0, 241.0, 100.75 ],
-					"setfilter" : [ 3, 5, 1, 0, 0, 9578.740234375, 2.285888910293579, 0.340000003576279, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 1033.8582763671875, 1.685666441917419, 0.310000002384186, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 477.16534423828125, 0.251188635826111, 0.319999992847443, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 1, 0, 0, 74.803146362304688, 1.685666441917419, 0.389999985694885, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 3, 5, 1, 0, 0, 1500.0, 1.0, 0.340000003576279, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 600.0, 1.0, 0.310000002384186, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 200.0, 1.0, 0.319999992847443, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 1, 0, 0, 0.000099999997474, 1.0, 0.389999985694885, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -1468,14 +1528,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-71",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 746.5, 1620.0, 94.0, 34.0 ],
+					"patching_rect" : [ 746.5, 1620.0, 94.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 596.75, 20.0, 150.0, 20.0 ],
-					"text" : "IR1 : Scooped V301.wav"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 596.75, 20.0, 150.0, 34.0 ],
+					"text" : "IR1 : 03 Creamy Warmth.wav"
 				}
 
 			}
@@ -2016,7 +2077,7 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 90.0, 1080.0, 138.0, 22.0 ],
@@ -2105,8 +2166,8 @@
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[26]",
-							"parameter_mmax" : 24.0,
-							"parameter_mmin" : -24.0,
+							"parameter_mmax" : 12.0,
+							"parameter_mmin" : -12.0,
 							"parameter_shortname" : "High",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -2137,8 +2198,8 @@
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[16]",
-							"parameter_mmax" : 24.0,
-							"parameter_mmin" : -24.0,
+							"parameter_mmax" : 12.0,
+							"parameter_mmin" : -12.0,
 							"parameter_shortname" : "Hi Mid",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -2169,8 +2230,8 @@
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[15]",
-							"parameter_mmax" : 24.0,
-							"parameter_mmin" : -24.0,
+							"parameter_mmax" : 12.0,
+							"parameter_mmin" : -12.0,
 							"parameter_shortname" : "Bass",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -2821,6 +2882,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"midpoints" : [ 99.5, 1250.200000286102295, 541.799996495246887, 1250.200000286102295, 541.799996495246887, 90.216216802597046, 800.0, 90.216216802597046 ],
+					"order" : 0,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"order" : 1,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 3 ],
 					"source" : [ "obj-18", 0 ]
 				}
@@ -2880,6 +2958,13 @@
 					"destination" : [ "obj-9", 1 ],
 					"midpoints" : [ 324.5, 375.0, 155.5, 375.0 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -3246,6 +3331,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 3 ],
+					"midpoints" : [ 384.5, 1074.0, 218.5, 1074.0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-69", 1 ],
 					"source" : [ "obj-70", 0 ]
 				}
@@ -3282,8 +3375,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"midpoints" : [ 99.5, 1132.200000286102295, 541.799996495246887, 1132.200000286102295, 541.799996495246887, 90.216216802597046, 800.0, 90.216216802597046 ],
+					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 

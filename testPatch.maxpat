@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 988.0, 85.0, 887.0, 930.0 ],
+		"rect" : [ 35.0, 85.0, 890.0, 930.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -557,6 +557,7 @@
 			"obj-12::obj-6::obj-15" : [ "live.dial[28]", "Attack", 0 ],
 			"obj-12::obj-6::obj-16" : [ "live.dial[29]", "Release", 0 ],
 			"obj-12::obj-6::obj-7" : [ "live.dial[6]", "Threshold", 0 ],
+			"obj-12::obj-7" : [ "live.dial[51]", "Bias", 0 ],
 			"obj-12::obj-81" : [ "live.dial[9]", "Lo Mid", 0 ],
 			"obj-12::obj-82" : [ "live.dial[25]", "F Hi Mid", 0 ],
 			"obj-12::obj-88" : [ "live.dial[45]", "F High", 0 ],
@@ -680,6 +681,14 @@
 					"parameter_unitstyle" : 9
 				}
 ,
+				"obj-12::obj-7" : 				{
+					"parameter_exponent" : 2.0,
+					"parameter_longname" : "live.dial[51]",
+					"parameter_range" : [ 0.0, 2.0 ],
+					"parameter_shortname" : "Bias",
+					"parameter_unitstyle" : 1
+				}
+,
 				"obj-12::obj-81" : 				{
 					"parameter_longname" : "live.dial[9]",
 					"parameter_shortname" : "Lo Mid"
@@ -787,13 +796,6 @@
 			}
 , 			{
 				"name" : "noiseGate.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "presets.json",
 				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
