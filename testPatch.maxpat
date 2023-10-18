@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 85.0, 890.0, 930.0 ],
+		"rect" : [ 42.0, 85.0, 890.0, 930.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -177,7 +177,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 375.0, 90.0, 165.0, 120.0 ],
+					"patching_rect" : [ 510.0, 90.0, 165.0, 120.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -515,9 +515,12 @@
  ],
 		"parameters" : 		{
 			"obj-12::obj-10" : [ "live.dial[19]", "Bite", 0 ],
+			"obj-12::obj-104" : [ "live.dial[11]", "Low", 0 ],
 			"obj-12::obj-11" : [ "live.dial[20]", "Boost", 0 ],
 			"obj-12::obj-12" : [ "live.dial[21]", "Tight", 0 ],
 			"obj-12::obj-13" : [ "live.dial[7]", "F Bass", 0 ],
+			"obj-12::obj-130" : [ "live.dial[53]", "Mid", 0 ],
+			"obj-12::obj-133" : [ "live.dial[54]", "Trebble", 0 ],
 			"obj-12::obj-139" : [ "live.dial[33]", "Gain 4", 0 ],
 			"obj-12::obj-14" : [ "live.dial[39]", "Release", 0 ],
 			"obj-12::obj-140" : [ "live.dial[36]", "Gain global", 0 ],
@@ -527,7 +530,7 @@
 			"obj-12::obj-19" : [ "live.dial[47]", "Ratio", 0 ],
 			"obj-12::obj-20" : [ "live.dial[40]", "Attack", 0 ],
 			"obj-12::obj-21" : [ "live.dial[10]", "Gain 3", 0 ],
-			"obj-12::obj-22" : [ "live.dial[11]", "Gain 1", 0 ],
+			"obj-12::obj-22" : [ "live.dial[14]", "Gain 1", 0 ],
 			"obj-12::obj-27" : [ "live.dial[48]", "Thresh", 0 ],
 			"obj-12::obj-28" : [ "live.dial[13]", "Gain 2", 0 ],
 			"obj-12::obj-29" : [ "live.dial[4]", "Freq", 0 ],
@@ -606,6 +609,7 @@
 				}
 ,
 				"obj-12::obj-22" : 				{
+					"parameter_longname" : "live.dial[14]",
 					"parameter_range" : [ 0.0, 40.0 ]
 				}
 ,
@@ -804,6 +808,13 @@
 , 			{
 				"name" : "spectrumdraw~.mxe64",
 				"type" : "mx64"
+			}
+, 			{
+				"name" : "toneStack.gendsp",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"patcherrelativepath" : ".",
+				"type" : "gDSP",
+				"implicit" : 1
 			}
  ],
 		"autosave" : 0,
