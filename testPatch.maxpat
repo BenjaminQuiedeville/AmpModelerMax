@@ -578,11 +578,24 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-12::obj-104" : 				{
+					"parameter_initial" : 0.5
+				}
+,
 				"obj-12::obj-13" : 				{
 					"parameter_exponent" : 1.0,
+					"parameter_initial" : 80,
 					"parameter_longname" : "live.dial[7]",
-					"parameter_range" : [ 0.0, 500.0 ],
+					"parameter_range" : [ 20.0, 150.0 ],
 					"parameter_shortname" : "F Bass"
+				}
+,
+				"obj-12::obj-130" : 				{
+					"parameter_initial" : 0.5
+				}
+,
+				"obj-12::obj-133" : 				{
+					"parameter_initial" : 0.5
 				}
 ,
 				"obj-12::obj-139" : 				{
@@ -599,6 +612,7 @@
 ,
 				"obj-12::obj-15" : 				{
 					"parameter_exponent" : 1.0,
+					"parameter_initial" : 450,
 					"parameter_longname" : "live.dial[8]",
 					"parameter_range" : [ 200.0, 1000.0 ],
 					"parameter_shortname" : "F Lo Mid"
@@ -630,7 +644,7 @@
 				}
 ,
 				"obj-12::obj-4" : 				{
-					"parameter_range" : [ -5.0, 60.0 ]
+					"parameter_range" : [ 0.0, 100.0 ]
 				}
 ,
 				"obj-12::obj-41" : 				{
@@ -688,7 +702,7 @@
 				"obj-12::obj-7" : 				{
 					"parameter_exponent" : 2.0,
 					"parameter_longname" : "live.dial[51]",
-					"parameter_range" : [ 0.0, 2.0 ],
+					"parameter_range" : [ 0.0, 10.0 ],
 					"parameter_shortname" : "Bias",
 					"parameter_unitstyle" : 1
 				}
@@ -700,6 +714,7 @@
 ,
 				"obj-12::obj-82" : 				{
 					"parameter_exponent" : 1.0,
+					"parameter_initial" : 1500,
 					"parameter_longname" : "live.dial[25]",
 					"parameter_range" : [ 600.0, 2500.0 ],
 					"parameter_shortname" : "F Hi Mid"
@@ -707,6 +722,7 @@
 ,
 				"obj-12::obj-88" : 				{
 					"parameter_exponent" : 1.0,
+					"parameter_initial" : 7500,
 					"parameter_longname" : "live.dial[45]",
 					"parameter_range" : [ 1500.0, 15000.0 ],
 					"parameter_shortname" : "F High"

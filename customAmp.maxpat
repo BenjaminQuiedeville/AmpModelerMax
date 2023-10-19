@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 988.0, 85.0, 890.0, 930.0 ],
+		"rect" : [ 995.0, 85.0, 890.0, 930.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -123,7 +123,7 @@
 					"prototypename" : "amount",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0 ],
+							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[54]",
@@ -152,7 +152,7 @@
 					"prototypename" : "amount",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0 ],
+							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[53]",
@@ -181,7 +181,7 @@
 					"prototypename" : "amount",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0 ],
+							"parameter_initial" : [ 0.5 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[11]",
@@ -216,7 +216,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 90.0, 510.0, 29.5, 22.0 ],
+					"patching_rect" : [ 90.0, 510.0, 34.0, 22.0 ],
 					"text" : "-~"
 				}
 
@@ -240,7 +240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 345.0, 1290.0, 70.0, 22.0 ],
+					"patching_rect" : [ 345.0, 1350.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -252,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 202.5, 1322.0, 100.0, 22.0 ],
+					"patching_rect" : [ 202.5, 1382.0, 100.0, 22.0 ],
 					"text" : "receive~ diSignal"
 				}
 
@@ -275,7 +275,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 286.699999928474426, 1030.920467836257103, 195.0, 71.840935672514661 ]
+					"patching_rect" : [ 315.0, 1005.0, 195.0, 71.840935672514661 ]
 				}
 
 			}
@@ -299,7 +299,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 105.0, 1020.0, 75.0, 22.0 ],
-					"text" : "onepole~ 50"
+					"text" : "onepole~ 10"
 				}
 
 			}
@@ -316,7 +316,7 @@
 						"valueof" : 						{
 							"parameter_exponent" : 2.0,
 							"parameter_longname" : "live.dial[51]",
-							"parameter_mmax" : 2.0,
+							"parameter_mmax" : 10.0,
 							"parameter_shortname" : "Bias",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -427,7 +427,7 @@
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0 ],
+							"parameter_initial" : [ 7500 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[45]",
@@ -459,7 +459,7 @@
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0 ],
+							"parameter_initial" : [ 1500 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[25]",
@@ -523,7 +523,7 @@
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0 ],
+							"parameter_initial" : [ 450 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[8]",
@@ -555,11 +555,12 @@
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 0 ],
+							"parameter_initial" : [ 80 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[7]",
-							"parameter_mmax" : 500.0,
+							"parameter_mmax" : 150.0,
+							"parameter_mmin" : 20.0,
 							"parameter_shortname" : "F Bass",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -671,7 +672,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 309.000000000000114, 850.920467836257103, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 3
+					"value" : 2
 				}
 
 			}
@@ -746,7 +747,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 735.0, 1130.079532163742897, 243.0, 120.0 ],
-					"setfilter" : [ 1, 5, 1, 0, 0, 1584.0, 1.0, 0.28999999165535, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 6, 1, 0, 0, 189.0, 1.0, 0.702000021934509, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 1, 5, 1, 0, 0, 1584.0, 1.412537574768066, 0.28999999165535, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 6, 1, 0, 0, 189.0, 1.0, 0.702000021934509, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -971,7 +972,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 703.0, 525.0, 241.0, 100.75 ],
-					"setfilter" : [ 3, 5, 1, 0, 0, 1500.0, 1.0, 0.340000003576279, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 600.0, 1.0, 0.310000002384186, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 200.0, 1.0, 0.319999992847443, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 1, 0, 0, 0.000099999997474, 1.0, 0.389999985694885, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 3, 5, 1, 0, 0, 7027.55908203125, 1.0, 0.340000003576279, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 1619.68505859375, 1.0, 0.310000002384186, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 450.0, 1.0, 0.319999992847443, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 1, 0, 0, 80.0, 1.0, 0.389999985694885, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -1127,7 +1128,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 155.500000000000171, 381.505813953488314, 83.0, 22.0 ],
+					"patching_rect" : [ 161.0, 394.505813953488314, 83.0, 22.0 ],
 					"text" : "loadmess 300"
 				}
 
@@ -1243,7 +1244,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 155.500000000000171, 407.0, 44.0, 48.0 ],
+					"patching_rect" : [ 161.0, 420.0, 44.0, 48.0 ],
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1513,7 +1514,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.750000000000114, 1230.0, 65.0, 22.0 ],
+					"patching_rect" : [ 256.750000000000114, 1290.0, 65.0, 22.0 ],
 					"text" : "release $1"
 				}
 
@@ -1525,7 +1526,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 182.250000000000227, 1230.0, 57.0, 22.0 ],
+					"patching_rect" : [ 182.250000000000227, 1290.0, 57.0, 22.0 ],
 					"text" : "attack $1"
 				}
 
@@ -1537,7 +1538,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.000000000000114, 1230.0, 59.0, 22.0 ],
+					"patching_rect" : [ 114.000000000000114, 1290.0, 59.0, 22.0 ],
 					"text" : "thresh $1"
 				}
 
@@ -1730,7 +1731,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 596.75, 20.0, 150.0, 34.0 ],
-					"text" : "IR1 : 01 Modern Standard.wav"
+					"text" : "IR1 : 05 Juicy Vintage Fullness.wav"
 				}
 
 			}
@@ -2028,7 +2029,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 256.750000000000114, 1170.0, 44.0, 48.0 ],
+					"patching_rect" : [ 256.750000000000114, 1230.0, 44.0, 48.0 ],
 					"prototypename" : "time",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -2065,7 +2066,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 202.250000000000114, 1170.0, 44.0, 48.0 ],
+					"patching_rect" : [ 202.250000000000114, 1230.0, 44.0, 48.0 ],
 					"prototypename" : "time",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -2102,7 +2103,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 146.750000000000114, 1170.0, 44.0, 48.0 ],
+					"patching_rect" : [ 146.750000000000114, 1230.0, 44.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 10.0, 60.0, 48.0 ],
 					"prototypename" : "gain",
@@ -2133,7 +2134,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 90.0, 1305.0, 99.5, 22.0 ],
+					"patching_rect" : [ 90.0, 1365.0, 99.5, 22.0 ],
 					"text" : "noiseGate"
 				}
 
@@ -2529,8 +2530,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[34]",
-							"parameter_mmax" : 60.0,
-							"parameter_mmin" : -5.0,
+							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "Pre gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -3637,7 +3637,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 123.500000000000114, 1292.0, 99.5, 1292.0 ],
+					"midpoints" : [ 123.500000000000114, 1352.0, 99.5, 1352.0 ],
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -3652,7 +3652,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 191.750000000000227, 1292.0, 99.5, 1292.0 ],
+					"midpoints" : [ 191.750000000000227, 1352.0, 99.5, 1352.0 ],
 					"source" : [ "obj-86", 0 ]
 				}
 
@@ -3674,7 +3674,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 266.250000000000114, 1292.0, 99.5, 1292.0 ],
+					"midpoints" : [ 266.250000000000114, 1352.0, 99.5, 1352.0 ],
 					"source" : [ "obj-89", 0 ]
 				}
 

@@ -449,11 +449,10 @@
 					"maxclass" : "live.meter~",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"orientation" : 1,
 					"outlettype" : [ "float", "int" ],
-					"patching_rect" : [ 381.0, 518.0, 82.0, 14.0 ],
+					"patching_rect" : [ 381.0, 518.0, 14.0, 82.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 11.0, 48.0, 8.0 ]
+					"presentation_rect" : [ 180.0, 11.0, 8.0, 48.0 ]
 				}
 
 			}
