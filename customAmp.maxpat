@@ -972,7 +972,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 703.0, 525.0, 241.0, 100.75 ],
-					"setfilter" : [ 3, 5, 1, 0, 0, 7500.0, 1.0, 0.340000003576279, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 1500.0, 1.0, 0.310000002384186, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 450.0, 1.0, 0.319999992847443, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 1, 0, 0, 80.0, 1.0, 0.389999985694885, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 3, 5, 1, 0, 0, 8031.49609375, 1.0, 0.340000003576279, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2, 5, 1, 0, 0, 1320.472412109375, 1.0, 0.310000002384186, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1, 5, 1, 0, 0, 450.0, 1.0, 0.319999992847443, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0, 5, 1, 0, 0, 80.0, 1.0, 0.389999985694885, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -1080,7 +1080,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_exponent" : 0.5,
-							"parameter_initial" : [ -38 ],
+							"parameter_initial" : [ -32 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "volumeCompensation[1]",
@@ -1731,7 +1731,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 596.75, 20.0, 150.0, 34.0 ],
-					"text" : "IR1 : 01 Modern Standard.wav"
+					"text" : "IR1 : 02b Transatlantic Blend.wav"
 				}
 
 			}
