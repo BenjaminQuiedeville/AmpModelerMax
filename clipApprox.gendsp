@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ -1669.0, 363.0, 1217.0, 609.0 ],
+		"rect" : [ 217.0, 190.0, 1217.0, 600.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,14 +45,14 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 855.0, 45.0, 28.0, 22.0 ],
+					"patching_rect" : [ 870.0, 45.0, 28.0, 22.0 ],
 					"text" : "in 2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"code" : "input = in1;\r\nclipChoice = 3;\r\noutput = 0;\r\nbias = -in2;\r\n\r\n\r\nif (clipChoice == 0) {\r\n\toutput = tanh(input);\r\n\t\r\n} else if (clipChoice == 1) {\r\n\toutput = invpi * atan(input) * 2;\r\n\r\n} else if (clipChoice == 2) {\r\n\t\r\n\toutput = input;\r\n\tif (abs(output) >= 1) {\r\n\t\toutput = output * 1/abs(output);\r\n\t}\r\n\t\r\n\r\n} else if (clipChoice == 3) {\r\n\r\n\tif (input > 0) {\r\n\t\toutput = invpi * atan(input + bias) * 2;\r\n\t} else {\t\t\r\n\t\toutput = input + bias;\r\n\t\tif (output < -1) { output = output * 1/abs(output); }\r\n\t}\r\n\r\n} else {\r\n\t\r\n\toutput = 0;\r\n}\r\n\r\nout1 = output;",
+					"code" : "input = -in1;\r\noutput = 0;\r\nbias = -in2;\r\n\r\n\r\nif (input > 0) {\r\n\toutput = invpi * atan(input + bias) * 2;\r\n} else {\t\t\r\n\toutput = input + bias;\r\n\tif (output < -1) { output = output * 1/abs(output); }\r\n}\r\n\r\n\r\nout1 = output;",
 					"fontface" : 0,
 					"fontname" : "<Monospaced>",
 					"fontsize" : 12.0,
