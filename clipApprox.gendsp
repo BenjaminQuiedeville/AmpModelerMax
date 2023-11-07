@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 217.0, 190.0, 1217.0, 600.0 ],
+		"rect" : [ 459.0, 195.0, 1217.0, 600.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,25 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 870.0, 45.0, 28.0, 22.0 ],
-					"text" : "in 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"code" : "input = -in1;\r\noutput = 0;\r\nbias = -in2;\r\n\r\n\r\nif (input > 0) {\r\n\toutput = invpi * atan(input + bias) * 2;\r\n} else {\t\t\r\n\toutput = input + bias;\r\n\tif (output < -1) { output = output * 1/abs(output); }\r\n}\r\n\r\n\r\nout1 = output;",
+					"code" : "input = -in1;\r\noutput = 0;\r\n\r\n\r\nif (input > 0) {\r\n\toutput = invpi *2 * atan(input * pi * 0.5);\r\n} else {\r\n\toutput = input;\t\t\r\n\tif (output < -1) { output = output * 1/abs(output); }\r\n}\r\n\r\n\r\nout1 = output;",
 					"fontface" : 0,
 					"fontname" : "<Monospaced>",
 					"fontsize" : 12.0,
 					"id" : "obj-33",
 					"maxclass" : "codebox",
-					"numinlets" : 2,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 105.0, 75.0, 780.0, 418.0 ]
@@ -90,13 +78,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 1 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-17", 0 ]

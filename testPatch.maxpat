@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1852.0, 939.0 ],
+		"rect" : [ -1886.0, 181.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"clipheight" : 36.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\benjamin\\Documents\\Max 8\\Projects\\AmpModelerMax\\samples\\SulphurAeon.wav",
+								"absolutepath" : "SulphurAeon.wav",
 								"filename" : "SulphurAeon.wav",
 								"filekind" : "audiofile",
 								"id" : "u621001000",
@@ -70,7 +70,7 @@
 
 							}
 , 							{
-								"absolutepath" : "C:\\Users\\benjamin\\Documents\\Max 8\\Projects\\AmpModelerMax\\samples\\Metallica.wav",
+								"absolutepath" : "Metallica.wav",
 								"filename" : "Metallica.wav",
 								"filekind" : "audiofile",
 								"id" : "u374000625",
@@ -118,7 +118,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 30.0, 240.0, 750.0, 165.0 ],
+					"patching_rect" : [ 30.0, 240.0, 1080.0, 165.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 165.0, 660.0, 165.0 ],
 					"varname" : "customAmp",
@@ -133,7 +133,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 840.0, 165.0, 285.0, 131.0 ],
+					"patching_rect" : [ 1155.0, 135.0, 285.0, 131.0 ],
 					"text" : "parametres : ??\n\npre boost: boost, low tight, high-mid bite\namp : pre gain, low, mid, high, pres, res, post gain\n\npoweramp : master, (sag ?)\n\nIR : volume, (blend ?)\n"
 				}
 
@@ -145,7 +145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 840.0, 45.0, 375.0, 89.0 ],
+					"patching_rect" : [ 795.0, 30.0, 375.0, 89.0 ],
 					"text" : "TODO :\n\nPoweramp stage (comp multiband ?)\nCompresseur apres le gain (effets des lampes et meilleur clean)\n\n"
 				}
 
@@ -688,6 +688,14 @@
 					"parameter_longname" : "live.dial[24]"
 				}
 ,
+				"obj-12::obj-58" : 				{
+					"parameter_range" : [ 0.0, 6.0 ]
+				}
+,
+				"obj-12::obj-59" : 				{
+					"parameter_range" : [ 0.0, 6.0 ]
+				}
+,
 				"obj-12::obj-60" : 				{
 					"parameter_longname" : "live.dial[44]"
 				}
@@ -735,77 +743,77 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Compresseur.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IRloader.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Metallica.wav",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/samples",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
 				"patcherrelativepath" : "./samples",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SulphurAeon.wav",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/samples",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
 				"patcherrelativepath" : "./samples",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cleanBoost.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clipApprox.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "customAmp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gainStages.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "guitarInput.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "komp-ballisticsCustom.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kompCustom.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -816,7 +824,7 @@
 			}
 , 			{
 				"name" : "noiseGate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -827,7 +835,7 @@
 			}
 , 			{
 				"name" : "toneStack.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
