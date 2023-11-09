@@ -118,7 +118,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 30.0, 240.0, 1080.0, 165.0 ],
+					"patching_rect" : [ 30.0, 255.0, 1080.0, 165.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 165.0, 660.0, 165.0 ],
 					"varname" : "customAmp",
@@ -521,7 +521,6 @@
 			"obj-12::obj-13" : [ "live.dial[7]", "F Bass", 0 ],
 			"obj-12::obj-130" : [ "live.dial[53]", "Mid", 0 ],
 			"obj-12::obj-133" : [ "live.dial[54]", "Trebble", 0 ],
-			"obj-12::obj-139" : [ "live.dial[33]", "Gain 4", 0 ],
 			"obj-12::obj-14" : [ "live.dial[39]", "Release", 0 ],
 			"obj-12::obj-140" : [ "live.dial[36]", "Gain global", 0 ],
 			"obj-12::obj-15" : [ "live.dial[8]", "F Lo Mid", 0 ],
@@ -529,11 +528,8 @@
 			"obj-12::obj-18" : [ "live.dial[43]", "Attack", 0 ],
 			"obj-12::obj-19" : [ "live.dial[47]", "Ratio", 0 ],
 			"obj-12::obj-20" : [ "live.dial[40]", "Attack", 0 ],
-			"obj-12::obj-21" : [ "live.dial[10]", "Gain 3", 0 ],
-			"obj-12::obj-22" : [ "live.dial[14]", "Gain 1", 0 ],
+			"obj-12::obj-23" : [ "live.dial[55]", "hp freq", 0 ],
 			"obj-12::obj-27" : [ "live.dial[48]", "Thresh", 0 ],
-			"obj-12::obj-28" : [ "live.dial[13]", "Gain 2", 0 ],
-			"obj-12::obj-29" : [ "live.dial[4]", "Freq", 0 ],
 			"obj-12::obj-32" : [ "live.dial[49]", "Knee", 0 ],
 			"obj-12::obj-3::obj-18" : [ "live.dial[35]", "Knee", 0 ],
 			"obj-12::obj-3::obj-4" : [ "live.dial[3]", "Release", 0 ],
@@ -598,12 +594,6 @@
 					"parameter_initial" : 0.5
 				}
 ,
-				"obj-12::obj-139" : 				{
-					"parameter_longname" : "live.dial[33]",
-					"parameter_range" : [ 0.0, 40.0 ],
-					"parameter_shortname" : "Gain 4"
-				}
-,
 				"obj-12::obj-140" : 				{
 					"parameter_longname" : "live.dial[36]",
 					"parameter_range" : [ 0.0, 40.0 ],
@@ -616,19 +606,6 @@
 					"parameter_longname" : "live.dial[8]",
 					"parameter_range" : [ 200.0, 1000.0 ],
 					"parameter_shortname" : "F Lo Mid"
-				}
-,
-				"obj-12::obj-21" : 				{
-					"parameter_range" : [ 0.0, 40.0 ]
-				}
-,
-				"obj-12::obj-22" : 				{
-					"parameter_longname" : "live.dial[14]",
-					"parameter_range" : [ 0.0, 40.0 ]
-				}
-,
-				"obj-12::obj-28" : 				{
-					"parameter_range" : [ 0.0, 40.0 ]
 				}
 ,
 				"obj-12::obj-3::obj-18" : 				{
@@ -644,7 +621,7 @@
 				}
 ,
 				"obj-12::obj-4" : 				{
-					"parameter_range" : [ 0.0, 100.0 ]
+					"parameter_range" : [ 0.0, 10.0 ]
 				}
 ,
 				"obj-12::obj-41" : 				{
@@ -777,7 +754,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "clipApprox.gendsp",
+				"name" : "clip.gendsp",
 				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
