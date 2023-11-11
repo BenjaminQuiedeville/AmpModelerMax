@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 181.0, 1852.0, 939.0 ],
+		"rect" : [ 34.0, 85.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,34 @@
 		"subpatcher_template" : "TemplateOutputGridsnap",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 585.0, 585.0, 48.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.gain~[1]",
+							"parameter_mmax" : 30.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Arial",
@@ -188,7 +216,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 555.0, 720.0, 60.0, 60.0 ]
+					"patching_rect" : [ 645.0, 855.0, 60.0, 60.0 ]
 				}
 
 			}
@@ -200,7 +228,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 555.0, 645.0, 60.0, 60.0 ]
+					"patching_rect" : [ 645.0, 780.0, 60.0, 60.0 ]
 				}
 
 			}
@@ -214,7 +242,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 495.0, 645.0, 48.0, 136.0 ],
+					"patching_rect" : [ 585.0, 780.0, 48.0, 136.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "mc.live.gain~[1]",
@@ -429,7 +457,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 495.0, 615.0, 66.0, 22.0 ],
+					"patching_rect" : [ 585.0, 750.0, 66.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -451,8 +479,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
-					"midpoints" : [ 39.5, 480.0, 528.0, 480.0 ],
+					"destination" : [ "obj-13", 1 ],
+					"midpoints" : [ 39.5, 480.0, 623.5, 480.0 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -460,8 +488,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 39.5, 480.0, 504.5, 480.0 ],
+					"destination" : [ "obj-13", 0 ],
+					"midpoints" : [ 39.5, 480.0, 594.5, 480.0 ],
 					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -481,6 +509,20 @@
 					"midpoints" : [ 39.5, 480.0, 144.5, 480.0 ],
 					"order" : 2,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"source" : [ "obj-13", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -528,7 +570,7 @@
 			"obj-12::obj-18" : [ "live.dial[43]", "Attack", 0 ],
 			"obj-12::obj-19" : [ "live.dial[47]", "Ratio", 0 ],
 			"obj-12::obj-20" : [ "live.dial[40]", "Attack", 0 ],
-			"obj-12::obj-23" : [ "live.dial[55]", "hp freq", 0 ],
+			"obj-12::obj-23" : [ "live.dial[55]", "input filter", 0 ],
 			"obj-12::obj-27" : [ "live.dial[48]", "Thresh", 0 ],
 			"obj-12::obj-32" : [ "live.dial[49]", "Knee", 0 ],
 			"obj-12::obj-3::obj-18" : [ "live.dial[35]", "Knee", 0 ],
@@ -563,6 +605,7 @@
 			"obj-12::obj-9::obj-19" : [ "live.dial[1]", "Bite", 0 ],
 			"obj-12::obj-9::obj-29" : [ "live.dial[2]", "Tight", 0 ],
 			"obj-12::obj-9::obj-9" : [ "live.dial", "Volume", 0 ],
+			"obj-13" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-4" : [ "mc.live.gain~[1]", "MasterVol", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
@@ -608,6 +651,11 @@
 					"parameter_shortname" : "F Lo Mid"
 				}
 ,
+				"obj-12::obj-23" : 				{
+					"parameter_range" : [ 0.0, 300.0 ],
+					"parameter_shortname" : "input filter"
+				}
+,
 				"obj-12::obj-3::obj-18" : 				{
 					"parameter_longname" : "live.dial[35]"
 				}
@@ -637,6 +685,10 @@
 					"parameter_range" : [ -12.0, 12.0 ]
 				}
 ,
+				"obj-12::obj-44" : 				{
+					"parameter_range" : [ -10.0, 40.0 ]
+				}
+,
 				"obj-12::obj-45" : 				{
 					"parameter_longname" : "live.dial[50]",
 					"parameter_shortname" : "IR2 delay"
@@ -658,7 +710,8 @@
 				}
 ,
 				"obj-12::obj-51" : 				{
-					"parameter_longname" : "volumeCompensation[1]"
+					"parameter_longname" : "volumeCompensation[1]",
+					"parameter_range" : [ -40.0, 20.0 ]
 				}
 ,
 				"obj-12::obj-54" : 				{

@@ -132,7 +132,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 140.0, 205.125, 180.0, 90.0 ],
-									"setfilter" : [ 0, 5, 1, 0, 0, 1690.0, 1.0, 0.209999993443489, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+									"setfilter" : [ 0, 5, 1, 0, 0, 1690.0, 3.966661930084229, 0.209999993443489, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 								}
 
 							}
@@ -464,7 +464,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 549.75, 255.0, 103.0, 22.0 ],
-					"text" : "scale 0. 10. 0. 20."
+					"text" : "scale 0. 10. 0. 30."
 				}
 
 			}
@@ -519,7 +519,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 356.0, 255.0, 82.0, 22.0 ],
-					"text" : "onepole~ 720"
+					"text" : "onepole~ 100"
 				}
 
 			}

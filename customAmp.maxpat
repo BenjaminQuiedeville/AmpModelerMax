@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 181.0, 1444.0, 939.0 ],
+		"rect" : [ 34.0, 85.0, 1444.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 465.0, 885.0, 44.0, 48.0 ],
+					"patching_rect" : [ 465.0, 885.0, 60.0, 48.0 ],
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -56,8 +56,8 @@
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[55]",
-							"parameter_mmax" : 50.0,
-							"parameter_shortname" : "hp freq",
+							"parameter_mmax" : 300.0,
+							"parameter_shortname" : "input filter",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
 						}
@@ -634,7 +634,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 315.0, 840.0, 18.0, 66.0 ],
 					"size" : 4,
-					"value" : 3
+					"value" : 1
 				}
 
 			}
@@ -1001,7 +1001,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 735.0, 131.0, 44.0, 48.0 ],
+					"patching_rect" : [ 735.0, 135.0, 44.0, 48.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1010,7 +1010,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "volumeCompensation[1]",
-							"parameter_mmax" : 0.0,
+							"parameter_mmax" : 20.0,
 							"parameter_mmin" : -40.0,
 							"parameter_shortname" : "VolComp",
 							"parameter_type" : 0,
@@ -1504,8 +1504,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[32]",
-							"parameter_mmax" : 10.0,
-							"parameter_mmin" : -30.0,
+							"parameter_mmax" : 40.0,
+							"parameter_mmin" : -10.0,
 							"parameter_shortname" : "Post gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
