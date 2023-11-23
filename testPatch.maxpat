@@ -480,7 +480,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
-					"midpoints" : [ 39.5, 480.0, 623.5, 480.0 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -489,7 +488,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 39.5, 480.0, 594.5, 480.0 ],
 					"order" : 1,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -638,6 +636,7 @@
 				}
 ,
 				"obj-12::obj-140" : 				{
+					"parameter_initial" : 30,
 					"parameter_longname" : "live.dial[36]",
 					"parameter_range" : [ 0.0, 40.0 ],
 					"parameter_shortname" : "Gain global"
@@ -652,6 +651,7 @@
 				}
 ,
 				"obj-12::obj-23" : 				{
+					"parameter_initial" : 100,
 					"parameter_range" : [ 0.0, 300.0 ],
 					"parameter_shortname" : "input filter"
 				}
@@ -739,6 +739,8 @@
 ,
 				"obj-12::obj-7" : 				{
 					"parameter_exponent" : 2.0,
+					"parameter_initial" : 0.18,
+					"parameter_initial_enable" : 1,
 					"parameter_longname" : "live.dial[51]",
 					"parameter_range" : [ 0.0, 1.0 ],
 					"parameter_shortname" : "Bias",
