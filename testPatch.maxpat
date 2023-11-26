@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1852.0, 939.0 ],
+		"rect" : [ 42.0, 85.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -570,6 +570,7 @@
 			"obj-12::obj-20" : [ "live.dial[40]", "Attack", 0 ],
 			"obj-12::obj-23" : [ "live.dial[55]", "input filter", 0 ],
 			"obj-12::obj-27" : [ "live.dial[48]", "Thresh", 0 ],
+			"obj-12::obj-28" : [ "live.dial[4]", "Headroom", 0 ],
 			"obj-12::obj-32" : [ "live.dial[49]", "Knee", 0 ],
 			"obj-12::obj-3::obj-18" : [ "live.dial[35]", "Knee", 0 ],
 			"obj-12::obj-3::obj-4" : [ "live.dial[3]", "Release", 0 ],
@@ -652,8 +653,14 @@
 ,
 				"obj-12::obj-23" : 				{
 					"parameter_initial" : 100,
-					"parameter_range" : [ 0.0, 300.0 ],
+					"parameter_range" : [ 0.0, 700.0 ],
 					"parameter_shortname" : "input filter"
+				}
+,
+				"obj-12::obj-28" : 				{
+					"parameter_exponent" : 3.0,
+					"parameter_longname" : "live.dial[4]",
+					"parameter_shortname" : "Headroom"
 				}
 ,
 				"obj-12::obj-3::obj-18" : 				{
@@ -686,6 +693,7 @@
 				}
 ,
 				"obj-12::obj-44" : 				{
+					"parameter_exponent" : 1.0,
 					"parameter_range" : [ -10.0, 40.0 ]
 				}
 ,
