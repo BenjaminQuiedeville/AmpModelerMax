@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1444.0, 939.0 ],
+		"rect" : [ -1886.0, 181.0, 1444.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[4]",
-							"parameter_mmax" : 10.0,
+							"parameter_mmax" : 20.0,
 							"parameter_mmin" : 0.1,
 							"parameter_shortname" : "Headroom",
 							"parameter_type" : 0,
