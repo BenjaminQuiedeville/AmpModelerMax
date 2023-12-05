@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1852.0, 939.0 ],
+		"rect" : [ 34.0, 85.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -83,7 +83,7 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 36.0,
+					"clipheight" : 38.666666666666664,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "SulphurAeon.wav",
@@ -98,10 +98,22 @@
 
 							}
 , 							{
-								"absolutepath" : "Metallica.wav",
-								"filename" : "Metallica.wav",
+								"absolutepath" : "Opeth.wav",
+								"filename" : "Opeth.wav",
 								"filekind" : "audiofile",
-								"id" : "u374000625",
+								"id" : "u894000654",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "Vektor.wav",
+								"filename" : "Vektor.wav",
+								"filekind" : "audiofile",
+								"id" : "u440000658",
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
@@ -123,7 +135,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 90.0, 255.0, 74.0 ],
+					"patching_rect" : [ 30.0, 45.0, 270.0, 119.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -146,7 +158,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 30.0, 255.0, 1080.0, 165.0 ],
+					"patching_rect" : [ 30.0, 240.0, 1080.0, 165.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 165.0, 660.0, 165.0 ],
 					"varname" : "customAmp",
@@ -162,6 +174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1155.0, 135.0, 285.0, 131.0 ],
+					"presentation_linecount" : 8,
 					"text" : "parametres : ??\n\npre boost: boost, low tight, high-mid bite\namp : pre gain, low, mid, high, pres, res, post gain\n\npoweramp : master, (sag ?)\n\nIR : volume, (blend ?)\n"
 				}
 
@@ -796,7 +809,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Metallica.wav",
+				"name" : "Opeth.wav",
 				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
 				"patcherrelativepath" : "./samples",
 				"type" : "WAVE",
@@ -804,6 +817,13 @@
 			}
 , 			{
 				"name" : "SulphurAeon.wav",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
+				"patcherrelativepath" : "./samples",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Vektor.wav",
 				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
 				"patcherrelativepath" : "./samples",
 				"type" : "WAVE",

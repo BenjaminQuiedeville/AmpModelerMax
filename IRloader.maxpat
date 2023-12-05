@@ -94,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 559.0, 1035.0, 137.0, 22.0 ],
+					"patching_rect" : [ 613.0, 1035.0, 137.0, 22.0 ],
 					"text" : "if $i1 == 1 then -1 else 1"
 				}
 
@@ -106,8 +106,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 495.0, 1035.0, 29.5, 22.0 ],
-					"text" : "*~"
+					"patching_rect" : [ 495.0, 1035.0, 34.0, 22.0 ],
+					"text" : "*~ 1."
 				}
 
 			}
@@ -118,7 +118,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 559.0, 1005.0, 38.0, 22.0 ],
+					"patching_rect" : [ 613.0, 1005.0, 38.0, 22.0 ],
 					"text" : "r flip2"
 				}
 
@@ -1215,11 +1215,11 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 114.75, 560.5, 71.0, 43.0 ],
+					"patching_rect" : [ 114.75, 560.5, 57.0, 43.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 34.0, 89.0, 72.0, 43.0 ],
-					"text" : "\"01 Modern Standard.wav\""
+					"presentation_rect" : [ 34.0, 89.0, 56.0, 43.0 ],
+					"text" : "\"02 DV30.wav\""
 				}
 
 			}
