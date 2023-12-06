@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1852.0, 939.0 ],
+		"rect" : [ -1886.0, 181.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -174,7 +174,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1155.0, 135.0, 285.0, 131.0 ],
-					"presentation_linecount" : 8,
 					"text" : "parametres : ??\n\npre boost: boost, low tight, high-mid bite\namp : pre gain, low, mid, high, pres, res, post gain\n\npoweramp : master, (sag ?)\n\nIR : volume, (blend ?)\n"
 				}
 
@@ -731,6 +730,7 @@
 				}
 ,
 				"obj-12::obj-51" : 				{
+					"parameter_initial" : -20,
 					"parameter_longname" : "volumeCompensation[1]",
 					"parameter_range" : [ -40.0, 20.0 ]
 				}
