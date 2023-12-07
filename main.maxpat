@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 181.0, 1852.0, 939.0 ],
+		"rect" : [ 34.0, 85.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -153,7 +153,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "customAmp.maxpat",
+					"name" : "ampli.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -516,7 +516,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"midpoints" : [ 39.5, 480.0, 144.5, 480.0 ],
 					"order" : 2,
 					"source" : [ "obj-12", 0 ]
 				}
@@ -796,84 +795,63 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Compresseur.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IRloader.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Opeth.wav",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
-				"patcherrelativepath" : "./samples",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SulphurAeon.wav",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
-				"patcherrelativepath" : "./samples",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Vektor.wav",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
-				"patcherrelativepath" : "./samples",
-				"type" : "WAVE",
+				"name" : "ampli.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cleanBoost.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clip.gendsp",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "customAmp.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "gainStages.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "guitarInput.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "komp-ballisticsCustom.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kompCustom.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -884,7 +862,7 @@
 			}
 , 			{
 				"name" : "noiseGate.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -895,7 +873,7 @@
 			}
 , 			{
 				"name" : "toneStack.gendsp",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
