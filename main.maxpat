@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1852.0, 939.0 ],
+		"rect" : [ 35.0, 85.0, 890.0, 930.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,46 @@
 		"subpatcher_template" : "TemplateOutputGridsnap",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 635.0, 585.0, 48.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 0.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "live.gain~[2]",
+							"parameter_mmax" : 30.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 31.0, 585.0, 37.0, 22.0 ],
+					"text" : "*~ 20"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-13",
 					"lastchannelcount" : 0,
@@ -197,7 +237,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 495.0, 285.0, 135.0 ]
+					"patching_rect" : [ 210.0, 495.0, 285.0, 135.0 ]
 				}
 
 			}
@@ -491,6 +531,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
@@ -507,16 +561,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"order" : 3,
+					"destination" : [ "obj-7", 0 ],
+					"order" : 2,
 					"source" : [ "obj-12", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"order" : 2,
+					"destination" : [ "obj-9", 0 ],
+					"order" : 3,
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -563,8 +617,16 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
+			"obj-10" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-12::obj-10" : [ "live.dial[19]", "Bite", 0 ],
 			"obj-12::obj-104" : [ "live.dial[11]", "Low", 0 ],
 			"obj-12::obj-11" : [ "live.dial[20]", "Boost", 0 ],
@@ -611,6 +673,7 @@
 			"obj-12::obj-7" : [ "live.dial[51]", "Bias", 0 ],
 			"obj-12::obj-81" : [ "live.dial[9]", "Lo Mid", 0 ],
 			"obj-12::obj-82" : [ "live.dial[25]", "F Hi Mid", 0 ],
+			"obj-12::obj-83" : [ "live.tab", "live.tab", 0 ],
 			"obj-12::obj-88" : [ "live.dial[45]", "F High", 0 ],
 			"obj-12::obj-9::obj-19" : [ "live.dial[1]", "Bite", 0 ],
 			"obj-12::obj-9::obj-29" : [ "live.dial[2]", "Tight", 0 ],
@@ -780,6 +843,16 @@
 					"parameter_shortname" : "F Hi Mid"
 				}
 ,
+				"obj-12::obj-83" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.tab",
+					"parameter_modmode" : 0,
+					"parameter_range" : [ "1", "2", "3", "4" ],
+					"parameter_shortname" : "live.tab",
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 9
+				}
+,
 				"obj-12::obj-88" : 				{
 					"parameter_exponent" : 1.0,
 					"parameter_initial" : 7500,
@@ -795,63 +868,84 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Compresseur.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IRloader.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Opeth.wav",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
+				"patcherrelativepath" : "./samples",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SulphurAeon.wav",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
+				"patcherrelativepath" : "./samples",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Vektor.wav",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
+				"patcherrelativepath" : "./samples",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ampli.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cleanBoost.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clip.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gainStages.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "guitarInput.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "komp-ballisticsCustom.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kompCustom.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -862,7 +956,7 @@
 			}
 , 			{
 				"name" : "noiseGate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -873,7 +967,7 @@
 			}
 , 			{
 				"name" : "toneStack.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
