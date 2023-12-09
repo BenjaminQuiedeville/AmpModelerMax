@@ -589,7 +589,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 154.0, 90.0, 73.0, 43.0 ],
-					"text" : "AURORA_212_CAD_CAP.wav"
+					"text" : "\"09 Dark Ribbon Doom.wav\""
 				}
 
 			}
@@ -711,7 +711,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 602.0, 177.0, 804.0, 622.0 ],
+						"rect" : [ 707.0, 178.0, 804.0, 622.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -739,7 +739,20 @@
 						"style" : "",
 						"subpatcher_template" : "TemplateOutputGridsnap",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 239.0, 90.0, 141.0, 22.0 ],
+									"text" : "expr $f1 * $f1 *(3 - 2*$f1)"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-1",
@@ -759,7 +772,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 210.0, 130.0, 39.0, 22.0 ],
+									"patching_rect" : [ 165.0, 180.0, 39.0, 22.0 ],
 									"text" : "$1 20"
 								}
 
@@ -771,7 +784,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
-									"patching_rect" : [ 210.0, 160.0, 34.0, 22.0 ],
+									"patching_rect" : [ 165.0, 210.0, 34.0, 22.0 ],
 									"text" : "line~"
 								}
 
@@ -783,7 +796,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 275.0, 130.0, 39.0, 22.0 ],
+									"patching_rect" : [ 230.0, 180.0, 39.0, 22.0 ],
 									"text" : "$1 20"
 								}
 
@@ -795,7 +808,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "bang" ],
-									"patching_rect" : [ 275.0, 160.0, 34.0, 22.0 ],
+									"patching_rect" : [ 230.0, 210.0, 34.0, 22.0 ],
 									"text" : "line~"
 								}
 
@@ -807,7 +820,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 113.5, 190.0, 29.5, 22.0 ],
+									"patching_rect" : [ 113.5, 255.0, 29.5, 22.0 ],
 									"text" : "*~"
 								}
 
@@ -819,7 +832,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 50.0, 190.0, 29.5, 22.0 ],
+									"patching_rect" : [ 50.0, 255.0, 29.5, 22.0 ],
 									"text" : "*~"
 								}
 
@@ -831,7 +844,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 229.0, 84.0, 29.5, 22.0 ],
+									"patching_rect" : [ 165.0, 135.0, 29.5, 22.0 ],
 									"text" : "!- 1."
 								}
 
@@ -870,7 +883,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 75.75, 272.0, 30.0, 30.0 ]
+									"patching_rect" : [ 75.75, 337.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -940,9 +953,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"order" : 1,
-									"source" : [ "obj-30", 0 ]
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -950,7 +970,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
 									"order" : 0,
-									"source" : [ "obj-30", 0 ]
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -1219,7 +1239,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 34.0, 89.0, 56.0, 43.0 ],
-					"text" : "\"02 DV30.wav\""
+					"text" : "\"12 Warm and Juicy.wav\""
 				}
 
 			}
