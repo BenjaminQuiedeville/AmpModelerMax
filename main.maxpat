@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 85.0, 890.0, 930.0 ],
+		"rect" : [ 34.0, 85.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -123,41 +123,53 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 38.666666666666664,
+					"clipheight" : 44.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "SulphurAeon.wav",
+								"absolutepath" : "D:\\Documents\\Max 8\\Projects\\Ampli\\samples\\SulphurAeon.wav",
 								"filename" : "SulphurAeon.wav",
 								"filekind" : "audiofile",
-								"id" : "u621001000",
+								"id" : "u896000957",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
 , 							{
-								"absolutepath" : "Opeth.wav",
+								"absolutepath" : "D:\\Documents\\Max 8\\Projects\\Ampli\\samples\\Opeth.wav",
 								"filename" : "Opeth.wav",
 								"filekind" : "audiofile",
-								"id" : "u894000654",
+								"id" : "u504000951",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
 , 							{
-								"absolutepath" : "Vektor.wav",
+								"absolutepath" : "D:\\Documents\\Max 8\\Projects\\Ampli\\samples\\Metallica.wav",
+								"filename" : "Metallica.wav",
+								"filekind" : "audiofile",
+								"id" : "u094000947",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+, 							{
+								"absolutepath" : "D:\\Documents\\Max 8\\Projects\\Ampli\\samples\\Vektor.wav",
 								"filename" : "Vektor.wav",
 								"filekind" : "audiofile",
-								"id" : "u440000658",
+								"id" : "u906000954",
 								"selection" : [ 0.0, 1.0 ],
-								"loop" : 1,
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
@@ -175,7 +187,7 @@
 					"originaltempo" : 120.0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 30.0, 45.0, 270.0, 119.0 ],
+					"patching_rect" : [ 30.0, 15.0, 360.0, 180.0 ],
 					"pitchcorrection" : 0,
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
@@ -198,7 +210,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 30.0, 240.0, 1080.0, 165.0 ],
+					"patching_rect" : [ 30.0, 255.0, 1080.0, 165.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 165.0, 660.0, 165.0 ],
 					"varname" : "customAmp",
@@ -237,7 +249,7 @@
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.0, 495.0, 285.0, 135.0 ]
+					"patching_rect" : [ 145.0, 472.0, 285.0, 135.0 ]
 				}
 
 			}
@@ -792,7 +804,7 @@
 				}
 ,
 				"obj-12::obj-51" : 				{
-					"parameter_initial" : -20,
+					"parameter_initial" : -28,
 					"parameter_longname" : "volumeCompensation[1]",
 					"parameter_range" : [ -40.0, 20.0 ]
 				}
@@ -878,6 +890,13 @@
 				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Metallica.wav",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
+				"patcherrelativepath" : "./samples",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
