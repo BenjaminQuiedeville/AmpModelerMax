@@ -445,8 +445,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.75, 730.0, 117.0, 22.0 ],
-					"text" : "scale 0. 10. 0. 1. 3.3"
+					"patching_rect" : [ 271.75, 730.0, 110.0, 22.0 ],
+					"text" : "scale 0. 10. 0. 1. 2."
 				}
 
 			}
@@ -2373,7 +2373,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "clip.gendsp",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"patcherrelativepath" : ".",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
