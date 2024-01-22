@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 85.0, 1452.0, 939.0 ],
+		"rect" : [ 42.0, 85.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -93,15 +93,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-73",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1230.0, 827.5, 150.0, 34.0 ],
+					"patching_rect" : [ 1230.0, 827.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 66.0, 327.843003571033478, 135.0, 34.0 ],
-					"text" : "IR2 : 01b Modern Bright Standard.wav"
+					"text" : "IR2 : 07 Djentparade.wav"
 				}
 
 			}
@@ -114,9 +113,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1035.0, 827.5, 94.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 66.0, 267.843003571033478, 135.0, 34.0 ],
-					"text" : "IR1 : 12 Warm and Juicy.wav"
+					"presentation_rect" : [ 66.0, 267.843003571033478, 135.0, 20.0 ],
+					"text" : "IR1 : 02 DV30.wav"
 				}
 
 			}
@@ -513,7 +511,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[1]"
 				}
 
@@ -612,7 +609,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[28]"
 				}
 
@@ -645,7 +641,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"triangle" : 1,
 					"varname" : "live.dial[29]"
 				}
@@ -691,7 +686,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[23]"
 				}
 
@@ -722,7 +716,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[24]"
 				}
 
@@ -760,7 +753,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[38]"
 				}
 
@@ -797,7 +789,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[17]"
 				}
 
@@ -830,7 +821,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[22]"
 				}
 
@@ -862,7 +852,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[12]"
 				}
 
@@ -898,7 +887,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[13]"
 				}
 
@@ -934,7 +922,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[14]"
 				}
 
@@ -970,7 +957,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[52]"
 				}
 
@@ -1006,7 +992,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[59]"
 				}
 
@@ -1042,7 +1027,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[60]"
 				}
 
@@ -1078,7 +1062,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[56]"
 				}
 
@@ -1114,7 +1097,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[57]"
 				}
 
@@ -1150,7 +1132,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.dial[58]"
 				}
 
@@ -1195,7 +1176,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "live.gain~[1]"
 				}
 
@@ -1378,7 +1358,6 @@
 
 					}
 ,
-					"textcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 1.0 ],
 					"varname" : "mc.live.gain~"
 				}
 
@@ -1949,17 +1928,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 1025.444444444444343, 576.0, 991.666662454605103, 576.0, 991.666662454605103, 513.0, 1494.5, 513.0 ],
-					"order" : 0,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
-					"order" : 1,
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -2037,17 +2006,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 1025.444444444444343, 675.0, 991.666662454605103, 675.0, 991.666662454605103, 513.0, 1494.5, 513.0 ],
-					"order" : 0,
-					"source" : [ "obj-65", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
-					"order" : 1,
 					"source" : [ "obj-65", 0 ]
 				}
 
@@ -2141,8 +2100,6 @@
 			"obj-12::obj-41" : [ "live.dial[15]", "Bass", 0 ],
 			"obj-12::obj-42" : [ "live.dial[16]", "Hi Mid", 0 ],
 			"obj-12::obj-43" : [ "live.dial[26]", "High", 0 ],
-			"obj-12::obj-48::obj-11" : [ "live.dial[22]", "Blend", 0 ],
-			"obj-12::obj-48::obj-20" : [ "live.gain~[3]", "Out Vol", 0 ],
 			"obj-12::obj-5" : [ "live.dial[31]", "Makeup", 0 ],
 			"obj-12::obj-51" : [ "volumeCompensation[1]", "VolComp", 0 ],
 			"obj-12::obj-54" : [ "live.dial[24]", "Master", 0 ],
@@ -2247,63 +2204,91 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Compresseur.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IRloader.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Metallica.wav",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
+				"patcherrelativepath" : "./samples",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Opeth.wav",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
+				"patcherrelativepath" : "./samples",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SulphurAeon.wav",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
+				"patcherrelativepath" : "./samples",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Vektor.wav",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
+				"patcherrelativepath" : "./samples",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ampli.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cleanBoost.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clip.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gainStages.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "guitarInput.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "komp-ballisticsCustom.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "kompCustom.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2314,7 +2299,7 @@
 			}
 , 			{
 				"name" : "noiseGate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2325,7 +2310,7 @@
 			}
 , 			{
 				"name" : "toneStack.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax",
+				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
