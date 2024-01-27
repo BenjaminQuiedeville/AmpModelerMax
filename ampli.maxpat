@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -94,7 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 252.666666666666771, 1087.159064327485794, 29.5, 22.0 ],
-					"text" : "10."
+					"text" : "15."
 				}
 
 			}
@@ -240,7 +240,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 600.0, 15.0, 239.0, 200.0 ],
+					"patching_rect" : [ 600.0, 15.0, 239.0, 194.0 ],
 					"text" : "ordre de process des lampes : \n\nbypass capacitor filtering\nphase reverse -> gain -> waveshape\ncouplign capacitor filtering\n\nordre des étages\n\netage 1 \npotard de gain\netage 2 - 4\nsuite\n\n"
 				}
 
@@ -468,7 +468,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1822.960317460317356, 762.087209302325618, 44.0, 48.0 ],
+					"patching_rect" : [ 1822.960317460317356, 762.087209302325618, 44.0, 47.0 ],
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -503,7 +503,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1778.960317460317356, 761.462209302325618, 44.0, 48.0 ],
+					"patching_rect" : [ 1778.960317460317356, 761.462209302325618, 44.0, 47.0 ],
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -538,7 +538,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1492.960317460317356, 761.462209302325618, 44.0, 48.0 ],
+					"patching_rect" : [ 1492.960317460317356, 761.462209302325618, 44.0, 47.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -573,7 +573,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1732.960317460317356, 762.087209302325618, 44.0, 48.0 ],
+					"patching_rect" : [ 1732.960317460317356, 762.087209302325618, 44.0, 47.0 ],
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -608,7 +608,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1687.960317460317356, 761.462209302325618, 44.0, 48.0 ],
+					"patching_rect" : [ 1687.960317460317356, 761.462209302325618, 44.0, 47.0 ],
 					"prototypename" : "freq",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1021,7 +1021,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 740.749999999999886, 615.0, 44.0, 48.0 ],
+					"patching_rect" : [ 740.749999999999886, 615.0, 44.0, 47.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1131,8 +1131,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1406,7 +1406,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2595.0, 1041.0, 41.0, 48.0 ],
+					"patching_rect" : [ 2595.0, 1041.0, 41.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_meter_bg"
@@ -1459,7 +1459,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2400.0, 837.087209302325618, 150.0, 34.0 ],
+					"patching_rect" : [ 2400.0, 837.087209302325618, 150.0, 33.0 ],
 					"text" : "IR2 : 09 Dark Ribbon Doom.wav"
 				}
 
@@ -1483,7 +1483,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2295.0, 837.087209302325618, 94.0, 34.0 ],
+					"patching_rect" : [ 2295.0, 837.087209302325618, 94.0, 33.0 ],
 					"text" : "IR1 : 02 DV30.wav"
 				}
 
@@ -1533,7 +1533,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1710.0, 424.375, 44.0, 48.0 ],
+					"patching_rect" : [ 1710.0, 424.375, 44.0, 47.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1579,7 +1579,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1611.285714285714221, 424.375, 44.0, 48.0 ],
+					"patching_rect" : [ 1611.285714285714221, 424.375, 44.0, 47.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1614,7 +1614,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1561.928571428571558, 424.375, 44.0, 48.0 ],
+					"patching_rect" : [ 1561.928571428571558, 424.375, 44.0, 47.0 ],
 					"prototypename" : "time",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1650,7 +1650,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1512.571428571428442, 424.375, 44.0, 48.0 ],
+					"patching_rect" : [ 1512.571428571428442, 424.375, 44.0, 47.0 ],
 					"prototypename" : "time",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1686,7 +1686,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1463.214285714285779, 424.375, 44.0, 48.0 ],
+					"patching_rect" : [ 1463.214285714285779, 424.375, 44.0, 47.0 ],
 					"prototypename" : "Q",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1721,7 +1721,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1413.85714285714289, 424.375, 44.0, 48.0 ],
+					"patching_rect" : [ 1413.85714285714289, 424.375, 44.0, 47.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1769,7 +1769,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 834.5, 405.0, 44.0, 48.0 ],
+					"patching_rect" : [ 834.5, 405.0, 44.0, 47.0 ],
 					"prototypename" : "time",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1806,7 +1806,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 780.0, 405.0, 44.0, 48.0 ],
+					"patching_rect" : [ 780.0, 405.0, 44.0, 47.0 ],
 					"prototypename" : "time",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1903,7 +1903,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1610.960317460317356, 761.462209302325618, 44.0, 48.0 ],
+					"patching_rect" : [ 1610.960317460317356, 761.462209302325618, 44.0, 47.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1938,7 +1938,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1552.960317460317356, 761.462209302325618, 44.0, 48.0 ],
+					"patching_rect" : [ 1552.960317460317356, 761.462209302325618, 44.0, 47.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1973,7 +1973,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1432.960317460317356, 761.462209302325618, 44.0, 48.0 ],
+					"patching_rect" : [ 1432.960317460317356, 761.462209302325618, 44.0, 47.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
