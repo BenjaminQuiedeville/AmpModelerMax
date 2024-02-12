@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 213.0, 1852.0, 939.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -523,7 +523,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 135.0, 690.0, 241.0, 22.0 ],
+					"patching_rect" : [ 135.0, 690.0, 225.0, 22.0 ],
 					"text" : "ampli",
 					"varname" : "ampli"
 				}
@@ -1638,7 +1638,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 255.5, 813.0, 1044.5, 813.0 ],
+					"midpoints" : [ 247.5, 813.0, 1044.5, 813.0 ],
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -1673,7 +1673,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
-					"midpoints" : [ 366.5, 813.0, 1239.5, 813.0 ],
+					"midpoints" : [ 350.5, 813.0, 1239.5, 813.0 ],
 					"source" : [ "obj-12", 2 ]
 				}
 
@@ -2104,22 +2104,10 @@
 			"obj-12::obj-13" : [ "live.dial[7]", "F Bass", 0 ],
 			"obj-12::obj-14" : [ "live.dial[39]", "Release", 0 ],
 			"obj-12::obj-15" : [ "live.dial[8]", "F Lo Mid", 0 ],
-			"obj-12::obj-16" : [ "live.dial[42]", "Release", 0 ],
-			"obj-12::obj-18" : [ "live.dial[43]", "Attack", 0 ],
-			"obj-12::obj-19" : [ "live.dial[47]", "Ratio", 0 ],
 			"obj-12::obj-20" : [ "live.dial[40]", "Attack", 0 ],
-			"obj-12::obj-27" : [ "live.dial[48]", "Thresh", 0 ],
-			"obj-12::obj-32" : [ "live.dial[49]", "Knee", 0 ],
-			"obj-12::obj-3::obj-18" : [ "live.dial[29]", "Knee", 0 ],
-			"obj-12::obj-3::obj-4" : [ "live.dial[3]", "Release", 0 ],
-			"obj-12::obj-3::obj-5" : [ "live.dial[30]", "Thresh", 0 ],
-			"obj-12::obj-3::obj-6" : [ "live.dial[28]", "Ratio", 0 ],
-			"obj-12::obj-3::obj-7" : [ "live.dial[2]", "Attack", 0 ],
-			"obj-12::obj-3::obj-9" : [ "live.dial[5]", "Makeup", 0 ],
 			"obj-12::obj-41" : [ "live.dial[15]", "Bass", 0 ],
 			"obj-12::obj-42" : [ "live.dial[16]", "Hi Mid", 0 ],
 			"obj-12::obj-43" : [ "live.dial[26]", "High", 0 ],
-			"obj-12::obj-5" : [ "live.dial[31]", "Makeup", 0 ],
 			"obj-12::obj-51" : [ "volumeCompensation[1]", "VolComp", 0 ],
 			"obj-12::obj-54" : [ "live.dial[24]", "Master", 0 ],
 			"obj-12::obj-81" : [ "live.dial[9]", "Lo Mid", 0 ],
@@ -2222,92 +2210,71 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Compresseur.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "IRloader.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Metallica.wav",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
-				"patcherrelativepath" : "./samples",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/media",
+				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Opeth.wav",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
-				"patcherrelativepath" : "./samples",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/media",
+				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SulphurAeon.wav",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
-				"patcherrelativepath" : "./samples",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/media",
+				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Vektor.wav",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli/samples",
-				"patcherrelativepath" : "./samples",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/media",
+				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ampli.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cleanBoost.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clip.gendsp",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gainStages.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "guitarInput.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "komp-ballisticsCustom.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "kompCustom.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2318,7 +2285,7 @@
 			}
 , 			{
 				"name" : "noiseGate.maxpat",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2329,8 +2296,8 @@
 			}
 , 			{
 				"name" : "toneStack.gendsp",
-				"bootpath" : "D:/Documents/Max 8/Projects/Ampli",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
