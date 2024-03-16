@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1852.0, 939.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,12 +55,13 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-5",
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 435.0, 143.0, 20.0 ],
-					"text" : "\"09 Dark Ribbon Doom.wav\""
+					"patching_rect" : [ 285.0, 435.0, 143.0, 53.0 ],
+					"text" : "\"C:/Users/benjamin/Projets Musique/ImpulseResponses/The Extreme 2/Scooped Grit.wav\""
 				}
 
 			}
@@ -189,7 +190,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 660.0, 105.0, 396.0, 36.0 ],
+					"patching_rect" : [ 660.0, 105.0, 396.0, 35.0 ],
 					"text" : "Warning : The impulse response loader requires the \"HISSTools Impulse Response Toolbox (HIRT)\" to perform convolution."
 				}
 
@@ -323,8 +324,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -510,7 +511,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 378.5, 982.0, 45.0, 22.0 ],
+					"patching_rect" : [ 330.0, 990.0, 45.0, 22.0 ],
 					"text" : "r blend"
 				}
 
@@ -583,7 +584,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.5, 567.0, 73.0, 43.0 ],
+					"patching_rect" : [ 648.5, 567.0, 73.0, 42.0 ],
 					"text" : "\"09 Dark Ribbon Doom.wav\""
 				}
 
@@ -597,7 +598,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 645.0, 495.0, 80.0, 22.0 ],
+					"patching_rect" : [ 645.0, 495.0, 80.0, 21.0 ],
 					"text" : "regexp .+/(.+)"
 				}
 
@@ -685,8 +686,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1026,13 +1027,13 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-27",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 560.5, 73.0, 43.0 ],
-					"text" : "\"01c Modern Vocal Standard.wav\""
+					"patching_rect" : [ 90.0, 560.5, 73.0, 31.0 ],
+					"text" : "\"Scooped Grit.wav\""
 				}
 
 			}
@@ -1045,7 +1046,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 151.5, 510.0, 80.0, 22.0 ],
+					"patching_rect" : [ 151.5, 510.0, 80.0, 21.0 ],
 					"text" : "regexp .+/(.+)"
 				}
 

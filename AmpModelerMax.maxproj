@@ -2,14 +2,19 @@
 	"name" : "AmpModelerMax",
 	"version" : 1,
 	"creationdate" : 3790580276,
-	"modificationdate" : 3791465015,
-	"viewrect" : [ 684.0, 156.0, 360.0, 698.0 ],
+	"modificationdate" : 3792009973,
+	"viewrect" : [ 569.0, 141.0, 360.0, 698.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
+			"M4LAmpli.amxd" : 			{
+				"kind" : "maxforlive",
+				"local" : 1
+			}
+,
 			"main.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1886.0, 213.0, 1852.0, 939.0 ],
+		"rect" : [ 134.0, 134.0, 1852.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -62,7 +62,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 101.0, 150.0, 180.0, 67.807482898235321 ],
-					"setfilter" : [ 0, 7, 1, 0, 0, 200.0, 1.995262265205383, 0.400000005960464, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+					"setfilter" : [ 0, 6, 1, 0, 0, 200.0, 0.5, 0.400000005960464, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
 				}
 
 			}
@@ -228,9 +228,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 148.5, 645.0, 29.5, 22.0 ],
-					"text" : "* 5"
+					"text" : "* 1."
 				}
 
 			}
@@ -340,8 +340,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 60.0, 810.0, 88.0, 22.0 ],
-					"text" : "onepole~ 3000"
+					"patching_rect" : [ 60.0, 810.0, 95.0, 22.0 ],
+					"text" : "onepole~ 10000"
 				}
 
 			}
@@ -353,7 +353,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1239.161074876785278, 750.0, 95.0, 22.0 ],
-					"text" : "onepole~ 10000"
+					"text" : "onepole~ 16000"
 				}
 
 			}
@@ -365,7 +365,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 930.201343595981598, 750.0, 95.0, 22.0 ],
-					"text" : "onepole~ 10000"
+					"text" : "onepole~ 16000"
 				}
 
 			}
@@ -1010,7 +1010,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1245.0, 660.0, 75.0, 22.0 ],
-					"text" : "onepole~ 20"
+					"text" : "onepole~ 10"
 				}
 
 			}
@@ -1098,7 +1098,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 930.0, 675.0, 75.0, 22.0 ],
-					"text" : "onepole~ 20"
+					"text" : "onepole~ 10"
 				}
 
 			}
@@ -1158,7 +1158,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 585.0, 700.0, 75.0, 22.0 ],
-					"text" : "onepole~ 20"
+					"text" : "onepole~ 10"
 				}
 
 			}
@@ -1293,10 +1293,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 540.0, 1110.0, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -1309,10 +1305,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 60.0, 15.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in~ 1"
 				}
 
@@ -1701,7 +1693,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
-					"midpoints" : [ 224.0, 922.0 ],
+					"midpoints" : [ 223.5, 922.0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -2258,7 +2250,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "clip.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
