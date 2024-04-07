@@ -61,7 +61,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 285.0, 435.0, 143.0, 53.0 ],
-					"text" : "\"C:/Users/benjamin/Projets Musique/ImpulseResponses/The Extreme 2/Scooped Grit.wav\""
+					"text" : "\"D:/Projets musique/ImpulseResponses/Rainbows/44.1/02b Transatlantic Blend.wav\""
 				}
 
 			}
@@ -81,12 +81,13 @@
 				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-3",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 780.0, 420.0, 143.0, 20.0 ],
-					"text" : "\"09 Dark Ribbon Doom.wav\""
+					"patching_rect" : [ 780.0, 420.0, 143.0, 42.0 ],
+					"text" : "\"D:/Projets musique/ImpulseResponses/IRs Nathan/05 The Saw.wav\""
 				}
 
 			}
@@ -584,8 +585,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.5, 567.0, 73.0, 42.0 ],
-					"text" : "\"09 Dark Ribbon Doom.wav\""
+					"patching_rect" : [ 648.5, 567.0, 51.0, 42.0 ],
+					"text" : "\"05 The Saw.wav\""
 				}
 
 			}
@@ -1032,8 +1033,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 560.5, 73.0, 31.0 ],
-					"text" : "\"Scooped Grit.wav\""
+					"patching_rect" : [ 90.0, 560.5, 89.0, 31.0 ],
+					"text" : "\"02b Transatlantic Blend.wav\""
 				}
 
 			}

@@ -2,8 +2,8 @@
 	"name" : "AmpModelerMax",
 	"version" : 1,
 	"creationdate" : 3790580276,
-	"modificationdate" : 3792009973,
-	"viewrect" : [ 569.0, 141.0, 360.0, 698.0 ],
+	"modificationdate" : 3795375419,
+	"viewrect" : [ 745.0, 158.0, 360.0, 698.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -24,6 +24,10 @@
 			"IRloader.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"Rnbo-Tuner.amxd" : 			{
+				"kind" : "maxforlive"
 			}
 ,
 			"ampli.maxpat" : 			{
@@ -87,6 +91,10 @@
 				"kind" : "gendsp",
 				"local" : 1
 			}
+
+		}
+,
+		"data" : 		{
 
 		}
 ,

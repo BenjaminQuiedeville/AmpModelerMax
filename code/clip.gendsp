@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 661.0, 230.0, 1217.0, 600.0 ],
+		"rect" : [ 403.0, 212.0, 1217.0, 600.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 			}
 , 			{
 				"box" : 				{
-					"code" : "input = -in1 * 1/in2;\r\noutput = 0;\r\n\r\n\r\nif (input > 0) {\r\n\toutput = invpi *2 * atan(input * pi * 0.5);\r\n} else {\r\n\toutput = input;\t\t\r\n\tif (output < -1) { output = output * 1/abs(output); }\r\n}\r\n\r\n\r\nout1 = in2*output;",
+					"code" : "input = in1 * 1/in2;\r\noutput = 0;\r\nhard_clip_value = 1.3;\r\n\r\nif (input > 0) {\r\n\toutput = invpi *2 * atan(input * pi * 0.5);\r\n} else {\r\n\toutput = input;\t\t\r\n\tif (output < -hard_clip_value) { output = -hard_clip_value; }\r\n}\r\n\r\n\r\nout1 = -1 * in2*output; ",
 					"fontface" : 0,
 					"fontname" : "<Monospaced>",
 					"fontsize" : 12.0,
@@ -110,7 +110,8 @@
 				}
 
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }

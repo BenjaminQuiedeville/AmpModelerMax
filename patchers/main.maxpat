@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 134.0, 1852.0, 939.0 ],
+		"rect" : [ 34.0, 77.0, 1399.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,160 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "",
+					"id" : "obj-25",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 435.0, 315.0, 44.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 270.762709736824036, 59.915252149105072, 44.0, 47.0 ],
+					"prototypename" : "freq",
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_exponent" : 3.333333,
+							"parameter_initial" : [ 1600 ],
+							"parameter_initial_enable" : 1,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "live.dial",
+							"parameter_mmax" : 3000.0,
+							"parameter_mmin" : 800.0,
+							"parameter_shortname" : "Freq",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 3
+						}
+
+					}
+,
+					"varname" : "live.dial"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 435.0, 375.0, 77.0, 22.0 ],
+					"text" : "prepend freq"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-21",
+					"linecount" : 7,
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "" ],
+					"patching_rect" : [ 870.0, 30.0, 102.0, 196.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 780.0, 28.815789341926575, 102.0, 196.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "amxd~",
+							"parameter_shortname" : "amxd~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"patchername" : "Rnbo-Tuner.amxd",
+						"patchername_fallback" : "D:/Documents/Max 8/Packages/RNBO Guitar Pedals/devices/Rnbo-Tuner.amxd"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "max~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"name" : "Rnbo-Tuner.amxd",
+							"origname" : "D:/Documents/Max 8/Packages/RNBO Guitar Pedals/devices/Rnbo-Tuner.amxd",
+							"valuedictionary" : 							{
+								"parameter_values" : 								{
+									"blob" : 									{
+										"Colors" : [ 1.0, 1.0, 1.0, 1.0 ]
+									}
+
+								}
+
+							}
+,
+							"active" : 1
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Rnbo-Tuner.amxd",
+									"origin" : "Rnbo-Tuner.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 0,
+									"snapshot" : 									{
+										"name" : "Rnbo-Tuner.amxd",
+										"origname" : "D:/Documents/Max 8/Packages/RNBO Guitar Pedals/devices/Rnbo-Tuner.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+												"blob" : 												{
+													"Colors" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+
+											}
+
+										}
+,
+										"active" : 1
+									}
+,
+									"fileref" : 									{
+										"name" : "Rnbo-Tuner.amxd",
+										"filename" : "Rnbo-Tuner.amxd.maxsnap",
+										"filepath" : "D:/Documents/Max 8/Projects/VSTTester/data",
+										"filepos" : -1,
+										"snapshotfileid" : "49c50505a522d06f0d9176ebae77b38d"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "amxd~ \"D:/Documents/Max 8/Packages/RNBO Guitar Pedals/devices/Rnbo-Tuner.amxd\"",
+					"varname" : "amxd~",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -67,28 +221,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 495.0, 1410.0, 45.0, 22.0 ],
-					"text" : "dac~ 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-25",
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -110,7 +242,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1620.0, 645.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 590.398257076740265, 152.442481935024261, 48.113209784030914, 48.592652633786201 ],
+					"presentation_rect" : [ 569.049056947231293, 173.50445169210434, 48.113209784030914, 48.592652633786201 ],
 					"text" : "Bypassed",
 					"texton" : "Active"
 				}
@@ -187,7 +319,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1485.0, 631.0, 48.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 590.398257076740265, 91.380530118942261, 48.0, 48.0 ],
+					"presentation_rect" : [ 569.049056947231293, 112.487505376338959, 48.0, 48.0 ],
 					"uncheckedcolor" : [ 0.517647058823529, 0.098039215686275, 0.098039215686275, 1.0 ]
 				}
 
@@ -195,27 +327,30 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-73",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1185.0, 827.5, 150.0, 20.0 ],
+					"patching_rect" : [ 1185.0, 827.5, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 299.247791171073914, 161.292040169239044, 135.0, 20.0 ],
-					"text" : "IR2 : Mixed IR 7.wav"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 279.067794561386108, 179.322031140327454, 135.0, 33.0 ],
+					"text" : "IR2 : 06 Big Balls Bazooka.wav"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1035.0, 827.5, 94.0, 33.0 ],
+					"patching_rect" : [ 1035.0, 827.5, 94.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 299.247791171073914, 102.0, 135.0, 20.0 ],
-					"text" : "IR1 : Mixed IR 3.wav"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 279.067794561386108, 120.0, 135.0, 33.0 ],
+					"text" : "IR1 : 06 Black Metal Magic.wav"
 				}
 
 			}
@@ -526,7 +661,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 435.593230724334717, 372.881364822387695, 75.0, 22.0 ],
+					"patching_rect" : [ 346.0, 375.0, 75.0, 22.0 ],
 					"text" : "prepend bite"
 				}
 
@@ -538,7 +673,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 345.762720108032227, 372.881364822387695, 79.0, 22.0 ],
+					"patching_rect" : [ 256.0, 375.0, 79.0, 22.0 ],
 					"text" : "prepend tight"
 				}
 
@@ -550,7 +685,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.084751844406128, 372.881364822387695, 81.0, 22.0 ],
+					"patching_rect" : [ 165.0, 375.0, 81.0, 22.0 ],
 					"text" : "prepend level"
 				}
 
@@ -571,7 +706,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4" ],
-							"parameter_initial" : [ 3 ],
+							"parameter_initial" : [ 2 ],
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.tab[1]",
 							"parameter_mmax" : 3,
@@ -642,7 +777,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1015.944444444444343, 649.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 255.0, 161.292040169239044, 34.0, 34.0 ]
+					"presentation_rect" : [ 235.0, 179.322031140327454, 34.0, 34.0 ]
 				}
 
 			}
@@ -656,7 +791,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1015.944444444444343, 549.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 255.0, 102.0, 34.0, 34.0 ]
+					"presentation_rect" : [ 235.0, 120.0, 34.0, 34.0 ]
 				}
 
 			}
@@ -670,7 +805,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1140.0, 639.962962865829468, 33.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 248.805309236049652, 153.32743775844574, 201.0, 52.313992857933044 ]
+					"presentation_rect" : [ 229.067796885967255, 171.694912850856781, 201.0, 52.313992857933044 ]
 				}
 
 			}
@@ -684,7 +819,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1140.0, 529.0, 33.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 250.575220882892609, 93.150441765785217, 199.5, 50.419795751571655 ]
+					"presentation_rect" : [ 230.762712061405182, 111.525424122810364, 199.5, 50.419795751571655 ]
 				}
 
 			}
@@ -730,7 +865,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1374.944444444444343, 526.0, 43.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 534.646040201187134, 91.380530118942261, 43.0, 53.0 ],
+					"presentation_rect" : [ 513.116856157779694, 112.487505376338959, 43.0, 53.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_meter_bg"
@@ -764,7 +899,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1374.944444444444343, 631.0, 48.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 534.646040201187134, 153.32743775844574, 48.0, 48.0 ]
+					"presentation_rect" : [ 513.116856157779694, 174.351909279823303, 48.0, 48.0 ]
 				}
 
 			}
@@ -778,7 +913,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1255.944444444444343, 631.0, 41.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 474.469044208526611, 153.32743775844574, 41.0, 47.0 ],
+					"presentation_rect" : [ 452.947367429733276, 174.351909279823303, 41.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_meter_bg"
@@ -809,7 +944,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1255.944444444444343, 533.0, 41.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 474.469044208526611, 94.035397589206696, 41.0, 47.0 ],
+					"presentation_rect" : [ 452.947367429733276, 115.02987813949585, 41.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_meter_bg"
@@ -841,7 +976,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 360.169500112533569, 494.915266036987305, 75.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.552632212638855, 74.868420481681824, 75.0, 47.0 ],
+					"presentation_rect" : [ 157.929826676845551, 15.0, 75.0, 47.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -887,8 +1022,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_exponent" : 3.333333,
-							"parameter_initial" : [ 50 ],
+							"parameter_initial" : [ 300 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[17]",
@@ -989,11 +1123,11 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 3 ],
+							"parameter_initial" : [ 6 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[13]",
-							"parameter_mmax" : 6.0,
+							"parameter_mmax" : 12.0,
 							"parameter_shortname" : "Presence",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -1025,11 +1159,11 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 3 ],
+							"parameter_initial" : [ 6 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "live.dial[14]",
-							"parameter_mmax" : 6.0,
+							"parameter_mmax" : 12.0,
 							"parameter_shortname" : "Reson",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -1159,9 +1293,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 345.762720108032227, 312.711871862411499, 44.0, 47.0 ],
+					"patching_rect" : [ 256.0, 315.0, 44.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 226.736842155456543, 15.0, 44.0, 47.0 ],
+					"presentation_rect" : [ 225.0, 15.0, 44.0, 47.0 ],
 					"prototypename" : "amount",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1195,9 +1329,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 435.593230724334717, 312.711871862411499, 44.0, 47.0 ],
+					"patching_rect" : [ 346.0, 315.0, 44.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.789473295211792, 15.0, 44.0, 47.0 ],
+					"presentation_rect" : [ 270.762709736824036, 15.0, 44.0, 47.0 ],
 					"prototypename" : "amount",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1231,9 +1365,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 255.084751844406128, 312.711871862411499, 44.0, 47.0 ],
+					"patching_rect" : [ 165.0, 315.0, 44.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 181.342105746269226, 15.0, 44.0, 47.0 ],
+					"presentation_rect" : [ 225.0, 59.915252149105072, 44.0, 47.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
@@ -1909,6 +2043,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"midpoints" : [ 519.5, 263.983041048049927, 144.5, 263.983041048049927 ],
+					"order" : 1,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 0,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -1936,8 +2079,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -1978,7 +2135,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -2257,6 +2414,11 @@
 			"obj-12::obj-43" : [ "live.dial[26]", "High", 0 ],
 			"obj-12::obj-51" : [ "volumeCompensation[1]", "VolComp", 0 ],
 			"obj-12::obj-54" : [ "live.dial[24]", "Master", 0 ],
+			"obj-12::obj-8.1::obj-33" : [ "live.dial[18]", "Bias", 0 ],
+			"obj-12::obj-8.1::obj-76" : [ "live.dial[19]", "Bias", 0 ],
+			"obj-12::obj-8.1::obj-82" : [ "live.dial[27]", "Bias", 0 ],
+			"obj-12::obj-8.1::obj-83" : [ "live.dial[28]", "Bias", 0 ],
+			"obj-12::obj-8.1::obj-84" : [ "live.dial[1]", "Bias", 0 ],
 			"obj-12::obj-81" : [ "live.dial[9]", "Lo Mid", 0 ],
 			"obj-12::obj-82" : [ "live.dial[25]", "F Hi Mid", 0 ],
 			"obj-12::obj-83" : [ "live.tab", "live.tab", 0 ],
@@ -2270,7 +2432,9 @@
 			"obj-165" : [ "live.dial[63]", "IR1 delay", 0 ],
 			"obj-166" : [ "live.dial[64]", "Master", 0 ],
 			"obj-167" : [ "live.dial[65]", "IR Blend", 0 ],
+			"obj-21" : [ "amxd~", "amxd~", 0 ],
 			"obj-24" : [ "live.dial[56]", "Tight", 0 ],
+			"obj-25" : [ "live.dial", "Freq", 0 ],
 			"obj-26" : [ "live.dial[57]", "Bite", 0 ],
 			"obj-27" : [ "live.dial[46]", "Bias", 0 ],
 			"obj-29" : [ "live.dial[58]", "Boost", 0 ],
@@ -2301,6 +2465,26 @@
 ,
 				"obj-111" : 				{
 					"parameter_longname" : "live.dial[13]"
+				}
+,
+				"obj-12::obj-8.1::obj-33" : 				{
+					"parameter_longname" : "live.dial[18]"
+				}
+,
+				"obj-12::obj-8.1::obj-76" : 				{
+					"parameter_longname" : "live.dial[19]"
+				}
+,
+				"obj-12::obj-8.1::obj-82" : 				{
+					"parameter_longname" : "live.dial[27]"
+				}
+,
+				"obj-12::obj-8.1::obj-83" : 				{
+					"parameter_longname" : "live.dial[28]"
+				}
+,
+				"obj-12::obj-8.1::obj-84" : 				{
+					"parameter_longname" : "live.dial[1]"
 				}
 ,
 				"obj-132" : 				{
@@ -2358,70 +2542,84 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "IRloader.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Metallica.wav",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/media",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Opeth.wav",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/media",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Rnbo-Tuner.amxd",
+				"bootpath" : "D:/Documents/Max 8/Packages/RNBO Guitar Pedals/devices",
+				"patcherrelativepath" : "../../../Packages/RNBO Guitar Pedals/devices",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Rnbo-Tuner.amxd.maxsnap",
+				"bootpath" : "D:/Documents/Max 8/Projects/VSTTester/data",
+				"patcherrelativepath" : "../../VSTTester/data",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "SulphurAeon.wav",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/media",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Vektor.wav",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/media",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ampli.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cleanBoost.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clip.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/code",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gainStages.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "guitarInput.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -2432,10 +2630,14 @@
 			}
 , 			{
 				"name" : "noiseGate.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/patchers",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "rnbo.tuner~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "spectrumdraw~.mxe64",
@@ -2443,7 +2645,7 @@
 			}
 , 			{
 				"name" : "toneStack.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/AmpModelerMax/code",
+				"bootpath" : "D:/Documents/Max 8/Projects/AmpModelerMax/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
