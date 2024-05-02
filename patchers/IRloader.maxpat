@@ -60,8 +60,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 435.0, 143.0, 53.0 ],
-					"text" : "\"D:/Projets musique/ImpulseResponses/Rainbows/44.1/02b Transatlantic Blend.wav\""
+					"patching_rect" : [ 285.0, 435.0, 139.0, 53.0 ],
+					"text" : "\"D:/Projets musique/ImpulseResponses/Rainbows/44.1/02 DV30.wav\""
 				}
 
 			}
@@ -98,7 +98,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 555.0, 1035.0, 39.0, 22.0 ],
+					"patching_rect" : [ 540.0, 1035.0, 39.0, 22.0 ],
 					"text" : "$1 50"
 				}
 
@@ -110,8 +110,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 1004.0, 56.0, 22.0 ],
-					"text" : "r unmute"
+					"patching_rect" : [ 615.0, 1004.0, 87.0, 22.0 ],
+					"text" : "r #0-unmute"
 				}
 
 			}
@@ -121,8 +121,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.0, 630.0, 58.0, 22.0 ],
-					"text" : "s unmute"
+					"patching_rect" : [ 361.0, 630.0, 89.0, 22.0 ],
+					"text" : "s #0-unmute"
 				}
 
 			}
@@ -132,8 +132,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 856.0, 630.0, 58.0, 22.0 ],
-					"text" : "s unmute"
+					"patching_rect" : [ 856.0, 630.0, 89.0, 22.0 ],
+					"text" : "s #0-unmute"
 				}
 
 			}
@@ -144,8 +144,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 555.0, 1004.0, 43.0, 22.0 ],
-					"text" : "r mute"
+					"patching_rect" : [ 540.0, 1004.0, 73.0, 22.0 ],
+					"text" : "r #0-mute"
 				}
 
 			}
@@ -155,8 +155,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 491.571428571428555, 171.5, 45.0, 22.0 ],
-					"text" : "s mute"
+					"patching_rect" : [ 492.0, 172.0, 75.0, 22.0 ],
+					"text" : "s #0-mute"
 				}
 
 			}
@@ -251,8 +251,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 630.0, 879.0, 38.0, 22.0 ],
-					"text" : "r flip2"
+					"patching_rect" : [ 630.0, 879.0, 69.0, 22.0 ],
+					"text" : "r #0-flip2"
 				}
 
 			}
@@ -262,8 +262,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 171.5, 40.0, 22.0 ],
-					"text" : "s flip2"
+					"patching_rect" : [ 405.0, 172.0, 71.0, 22.0 ],
+					"text" : "s #0-flip2"
 				}
 
 			}
@@ -286,8 +286,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 548.0, 750.0, 51.0, 22.0 ],
-					"text" : "r delays"
+					"patching_rect" : [ 548.0, 750.0, 81.0, 22.0 ],
+					"text" : "r #0-delays"
 				}
 
 			}
@@ -297,8 +297,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 285.0, 201.5, 53.0, 22.0 ],
-					"text" : "s delays"
+					"patching_rect" : [ 285.0, 201.5, 83.0, 22.0 ],
+					"text" : "s #0-delays"
 				}
 
 			}
@@ -512,8 +512,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 990.0, 45.0, 22.0 ],
-					"text" : "r blend"
+					"patching_rect" : [ 330.0, 990.0, 76.0, 22.0 ],
+					"text" : "r #0-blend"
 				}
 
 			}
@@ -523,8 +523,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 171.5, 165.0, 47.0, 22.0 ],
-					"text" : "s blend"
+					"patching_rect" : [ 171.5, 165.0, 78.0, 22.0 ],
+					"text" : "s #0-blend"
 				}
 
 			}
@@ -571,8 +571,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 758.0, 604.0, 67.0, 22.0 ],
-					"text" : "set 2 2 IR2"
+					"patching_rect" : [ 758.0, 604.0, 97.0, 22.0 ],
+					"text" : "set 2 2 #0-IR2"
 				}
 
 			}
@@ -623,8 +623,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 780.0, 550.5, 95.0, 22.0 ],
-					"text" : "buffer~ IR2 10 1"
+					"patching_rect" : [ 780.0, 550.5, 125.0, 22.0 ],
+					"text" : "buffer~ #0-IR2 10 1"
 				}
 
 			}
@@ -982,8 +982,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 268.5, 604.0, 67.0, 22.0 ],
-					"text" : "set 1 1 IR1"
+					"patching_rect" : [ 268.5, 604.0, 97.0, 22.0 ],
+					"text" : "set 1 1 #0-IR1"
 				}
 
 			}
@@ -1033,8 +1033,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 560.5, 89.0, 31.0 ],
-					"text" : "\"02b Transatlantic Blend.wav\""
+					"patching_rect" : [ 90.0, 560.5, 73.0, 31.0 ],
+					"text" : "\"02 DV30.wav\""
 				}
 
 			}
@@ -1071,8 +1071,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 285.0, 555.0, 95.0, 22.0 ],
-					"text" : "buffer~ IR1 10 1"
+					"patching_rect" : [ 285.0, 555.0, 125.0, 22.0 ],
+					"text" : "buffer~ #0-IR1 10 1"
 				}
 
 			}
@@ -1291,7 +1291,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
-					"midpoints" : [ 54.5, 390.0, 418.5, 390.0 ],
+					"midpoints" : [ 54.5, 390.0, 414.5, 390.0 ],
 					"order" : 0,
 					"source" : [ "obj-45", 0 ]
 				}

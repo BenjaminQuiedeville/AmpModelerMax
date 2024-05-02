@@ -2,7 +2,7 @@
 	"name" : "AmpModelerMax",
 	"version" : 1,
 	"creationdate" : 3790580276,
-	"modificationdate" : 3795375419,
+	"modificationdate" : 3795960546,
 	"viewrect" : [ 745.0, 158.0, 360.0, 698.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
